@@ -23,6 +23,7 @@ Solution
 If you want to downgrade on CentOS 7 and get back the working version exim-4.93-3.el7.x86_64.rpm do the following:
 
 wget https://ca1.dynanode.net/exim-4.93-3.el7.x86_64.rpm
+
 rpm -Uvh --oldpackage exim-4.93-3.el7.x86_64.rpm
 
 
